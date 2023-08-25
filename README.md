@@ -23,6 +23,7 @@ Introduction goes here // TODO
 * <img src="./public/assets/images/win+r.png" width="600" height="450">
 * type the following commands to check the version of node and npm to confirm that it has been installed correctly and added to your path
 * to check node version
+
 ```bash
 node -v
 ```
