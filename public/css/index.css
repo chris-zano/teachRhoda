@@ -1,0 +1,14 @@
+main {
+    padding: 4rem 1em 2em;
+    height: 100vh;
+    width: 100vw;
+}
+div.welcome_msg {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 45px;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/root">
+    <link rel="stylesheet" href="/css/index">
+    <title><%= title %></title> 
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="/">LogoHere</a></div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <% if (title == "Home") { %>
+         <%- include('layouts/home') %>
+        <% } %>
+        <% if (title == "About") { %>
+         <%- include('layouts/about') %>
+        <% } %>
+        <% if (title == "Contact") { %>
+         <%- include('layouts/contact') %>
+        <% } %>
+        <% if (title == "Profile") { %>
+         <%- include('layouts/profile') %>
+        <% } %>
+    </main>
+</body>
+</html>
